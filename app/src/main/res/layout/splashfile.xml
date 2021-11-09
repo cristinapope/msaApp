@@ -5,20 +5,32 @@
     android:gravity="center"
     android:background="@color/white">
 
-    <ImageView
-        android:id="@+id/logo_id"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_centerInParent="true"
-        android:src="@drawable/abhiandroid"/>
-
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/logo_id"
-        android:layout_centerHorizontal="true"
-        android:text="Splash Screen"
-        android:textSize="30dp"
-        android:textColor="@color/black"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="27dp"
+        android:background="@color/nudebcg">
 
+        <ImageView
+            android:id="@+id/logo_id"
+            android:layout_width="353dp"
+            android:layout_height="523dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="66dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/catbcc" />
+    </RelativeLayout>
 </RelativeLayout>
