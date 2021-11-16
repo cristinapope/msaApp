@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/drawable/splashfile.xml" value="0.2703125" />
-        <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/layout/splashfile.xml" value="0.152" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout-w936dp/activity_login.xml" value="0.209765625" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout/activity_login2.xml" value="0.2796875" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout/activity_login5.xml" value="0.2" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout/activity_login6.xml" value="0.25" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout/splashfile.xml" value="0.2796875" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
