@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="nudebcg">#C8A98C</color>
     <color name="textColorSplash">#E7CEB4</color>
+    <color name="buttonColor">#DBAF96</color>
 </resources>
