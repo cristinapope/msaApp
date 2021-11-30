@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/drawable/splashfile.xml" value="0.2703125" />
-        <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/layout/activity_sign_up.xml" value="0.12864583333333332" />
         <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/layout/splashfile.xml" value="0.176" />
       </map>
@@ -19,7 +19,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.176" />
+        <option name="scale" value="0.12864583333333332" />
       </ProjectState>
     </option>
   </component>

@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         signupButton = (Button) findViewById(R.id.registerButton);
-        signupButton.setOnClickListener(v -> openActivitySignup());
+       // signupButton.setOnClickListener(v -> openActivitySignup());
     }
     public void openActivitySignup()
     {
-        Intent signupIntent = new Intent(this, SignUp.class);
-        startActivity(signupIntent);
+        //Intent signupIntent = new Intent(this, SignUp.class);
+        //startActivity(signupIntent);
     }
 }
