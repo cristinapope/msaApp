@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_main.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_opening_screen.xml" value="0.264" />
+        <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_register.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/splashfile.xml" value="0.13489583333333333" />
         <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/drawable/splashfile.xml" value="0.2703125" />
         <entry key="..\:/Users/User/StudioProjects/msapp/app/src/main/res/layout/activity_login6.xml" value="0.1" />
@@ -22,7 +26,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.12864583333333332" />
+        <option name="scale" value="0.136" />
       </ProjectState>
     </option>
   </component>
