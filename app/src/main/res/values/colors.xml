@@ -11,4 +11,7 @@
     <color name="textColorSplash">#E7CEB4</color>
     <color name="buttonColor">#DBAF96</color>
     <color name="backButtonColor">#D4CDC4</color>
+    <color name="searchBar">#EFE6D6</color>
+    <color name="itemColor">#E5C5AD</color>
+    <color name="miniItemOpeningScreen">#FFD1BB</color>
 </resources>
