@@ -95,7 +95,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if(task.isSuccessful()){
                                         //register Success
-                                        Toast.makeText(RegisterActivity.this, "Successful Registration!",
+                                        FirebaseAuth.getInstance().getCurrentUser().sendEmailVerification();
+                                        Toast.makeText(RegisterActivity.this, "Successful Registration! check email for verification!",
                                                 Toast.LENGTH_LONG).show();
                                     } else{
                                         //register Fail

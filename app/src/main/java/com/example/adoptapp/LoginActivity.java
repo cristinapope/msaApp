@@ -16,12 +16,13 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
 
     private FirebaseAuth myAuth;
 
-    private TextView loginButtonLoginScreen;
+    private TextView loginButtonLoginScreen, textForgotPassword;
     private EditText textEmail, textPassword;
 
     private Button registerbutton;
@@ -42,6 +43,14 @@ public class LoginActivity extends AppCompatActivity {
 
         textEmail=(EditText) findViewById(R.id.textEmail);
         textPassword=(EditText) findViewById(R.id.textPassword);
+
+        textForgotPassword= (TextView) findViewById(R.id.textForgotPassword);
+        textForgotPassword.setOnClickListener(view -> openActivityForgotPassword());
+    }
+
+    private void openActivityForgotPassword() {
+        Intent forgotPasswordIntent = new Intent(this, ForgotPasswordActivity.class);
+        startActivity(forgotPasswordIntent);
     }
 
     private void openActivityLogin() {
@@ -80,7 +89,20 @@ public class LoginActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     //Login successful
-                    startActivity(new Intent(LoginActivity.this, OpeningScreen.class));
+
+                    FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
+
+                    //Check if user has their email verified.
+                    if(user.isEmailVerified()){
+                        startActivity(new Intent(LoginActivity.this, OpeningScreen.class));
+                    }
+                    else{
+                        //If not yet verified, send another verification email
+                        user.sendEmailVerification();
+                        Toast.makeText(LoginActivity.this, "Please verify your email!",
+                                Toast.LENGTH_LONG).show();
+                    }
+
                 }else{
                     //Login failed
                     Toast.makeText(LoginActivity.this, "Log in failed. Check credentials.", Toast.LENGTH_LONG).show();
