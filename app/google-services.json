@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "377822125901",
+    "project_id": "msaapp-faca9",
+    "storage_bucket": "msaapp-faca9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377822125901:android:7a025444346d94e3f9e104",
+        "android_client_info": {
+          "package_name": "com.example.adoptapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377822125901-dha0petld8oqa3l1tjf71ihm7ufoeugo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2gM9GAkRkzVIRJQD_U17JjrFbMmhQLvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377822125901-dha0petld8oqa3l1tjf71ihm7ufoeugo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

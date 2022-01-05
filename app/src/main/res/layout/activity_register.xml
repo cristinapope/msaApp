@@ -9,80 +9,79 @@
     >
 
 
-
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonConfirmRegister"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginBottom="32dp"
         android:background="@color/buttonColor"
         android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passText"
-        app:layout_constraintVertical_bias="0.985" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/logoText"
+        android:id="@+id/textRegisterLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
+        android:layout_marginBottom="45dp"
         android:text="Register"
         android:textSize="50dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/emailText"
+        android:id="@+id/textEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="72dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
+        android:hint="Email"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Email"
+        app:layout_constraintBottom_toTopOf="@+id/textUsername"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoText" />
+        app:layout_constraintTop_toBottomOf="@+id/textRegisterLogo" />
 
     <EditText
-        android:id="@+id/usernameText"
+        android:id="@+id/textUsername"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="36dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
+        android:hint="Username"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Username"
+        app:layout_constraintBottom_toTopOf="@+id/textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailText" />
+        app:layout_constraintTop_toBottomOf="@+id/textEmail" />
 
     <EditText
-        android:id="@+id/passText"
+        android:id="@+id/textPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="36dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
-        android:minHeight="48dp"
-        android:text="Password"
+        android:hint="Password"
         android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonConfirmRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernameText" />
+        app:layout_constraintTop_toBottomOf="@+id/textUsername" />
 
 
 
