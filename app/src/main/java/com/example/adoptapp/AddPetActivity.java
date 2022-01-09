@@ -34,6 +34,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
 
+//add firebase things..
 
 public class AddPetActivity extends AppCompatActivity {
     private Button pickImage;

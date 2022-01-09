@@ -27,9 +27,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="131dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="131dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="126dp"
         app:srcCompat="@android:drawable/ic_dialog_alert" />
 
     <Button
@@ -38,7 +39,7 @@
         android:layout_height="45dp"
         android:layout_below="@+id/petPicture"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="42dp"
         android:background="@color/buttonColor"
         android:text="Choose picture"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +53,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="46dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="42dp"
         android:layout_marginEnd="46dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -60,21 +61,33 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="320dp"
+        android:id="@+id/editTextTextPetDescription"
         android:layout_height="152dp"
         android:layout_below="@+id/editTextTextPetType"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="46dp"
-        android:layout_marginBottom="110dp">
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="117dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Description/Extra info" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/adoptntButtonAddPetScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/buttonColor"
+        android:layout_marginBottom="30dp"
+        android:text="Adoptn't" />
 
 
 </RelativeLayout>
