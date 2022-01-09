@@ -23,9 +23,11 @@
         android:id="@+id/petAdoptLayout"
         android:layout_width="318dp"
         android:layout_height="403dp"
+        android:layout_above="@+id/adoptButton"
         android:layout_below="@+id/petPictureTakePetBackScreen"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
+        android:layout_marginBottom="17dp"
         android:background="@color/relativeLayoutViewPet">
 
         <TextView
@@ -101,13 +103,11 @@
         android:id="@+id/adoptButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/petAdoptLayout"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="166dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginBottom="17dp"
         android:background="@color/buttonColor"
         android:text="Adopt"
         android:textColor="@color/black"
