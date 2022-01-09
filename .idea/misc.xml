@@ -8,10 +8,11 @@
         <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout/activity_opening_screen.xml" value="0.2390625" />
         <entry key="..\:/Users/Allan/AndroidStudioProjects/msaApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_add_pet.xml" value="0.264" />
+        <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_adopt_pet.xml" value="0.264" />
         <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_login6.xml" value="0.2" />
         <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_main.xml" value="0.13177083333333334" />
-        <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_opening_screen.xml" value="0.2" />
+        <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_opening_screen.xml" value="0.264" />
         <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/activity_register.xml" value="0.11388888888888889" />
         <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/add_pet.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/StudioProjects/msaApp/app/src/main/res/layout/splashfile.xml" value="0.13489583333333333" />
@@ -34,7 +35,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.264" />
+        <option name="scale" value="0.2994011976047904" />
       </ProjectState>
     </option>
   </component>

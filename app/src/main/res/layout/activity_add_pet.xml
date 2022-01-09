@@ -12,16 +12,17 @@
         android:layout_below="@+id/editTextTextPetName"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="42dp"
+        android:layout_marginStart="46dp"
         android:layout_marginTop="51dp"
-        android:layout_marginEnd="49dp"
+        android:layout_marginEnd="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Pet type" />
+        android:text="Pet type"
+        android:background="@color/inputTextbc"
+        />
 
     <ImageView
-        android:id="@+id/petPicture"
+        android:id="@+id/petPictureAddPetScreen"
         android:layout_width="160dp"
         android:layout_height="119dp"
         android:layout_alignParentStart="true"
@@ -31,13 +32,14 @@
         android:layout_marginStart="136dp"
         android:layout_marginTop="86dp"
         android:layout_marginEnd="126dp"
+        android:background="@color/inputTextbc"
         app:srcCompat="@android:drawable/ic_dialog_alert" />
 
     <Button
         android:id="@+id/addPicButton"
         android:layout_width="132dp"
         android:layout_height="45dp"
-        android:layout_below="@+id/petPicture"
+        android:layout_below="@+id/petPictureAddPetScreen"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="42dp"
         android:background="@color/buttonColor"
@@ -55,6 +57,7 @@
         android:layout_marginStart="46dp"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="46dp"
+        android:background="@color/inputTextbc"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name" />
@@ -71,12 +74,17 @@
         android:layout_marginStart="47dp"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="45dp"
-        android:layout_marginBottom="117dp">
+        android:layout_marginBottom="117dp"
+
+        android:background="@color/inputTextbc"
+        >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Description/Extra info" />
+            android:hint="Description/Extra info"
+
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

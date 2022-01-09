@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -34,25 +35,34 @@ import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
 
-//add firebase things..
+//TODO: add firebase things here..
 
 public class AddPetActivity extends AppCompatActivity {
     private Button pickImage;
     private ImageView petImage;
     ActivityResultLauncher<String> mGetContent;
+    private EditText petName;
+    private EditText petType;
+    private EditText petDescription;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_pet);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         pickImage = findViewById(R.id.addPicButton);
-        petImage = findViewById(R.id.petPicture);
+        petImage = findViewById(R.id.petPictureAddPetScreen);
+
+
         mGetContent = registerForActivityResult(new ActivityResultContracts.GetContent(), new ActivityResultCallback<Uri>() {
             @Override
             public void onActivityResult(Uri result) {
                 petImage.setImageURI(result);
             }
         });
+
         pickImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

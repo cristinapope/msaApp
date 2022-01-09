@@ -14,4 +14,6 @@
     <color name="searchBar">#EFE6D6</color>
     <color name="itemColor">#E5C5AD</color>
     <color name="miniItemOpeningScreen">#FFD1BB</color>
+    <color name="inputTextbc">#E5DDCE</color>
+    <color name="relativeLayoutViewPet">#F4F1EC</color>
 </resources>
