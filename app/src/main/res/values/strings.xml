@@ -2,4 +2,6 @@
     <string name="app_name">AdoptApp</string>
     <string name="back_button">Back</string>
     <string name="adopn_tButton">ADOPN\'T</string>
+    <string name="last_added">LAST ADDED</string>
+    <string name="find_out_more">FIND OUT MORE</string>
 </resources>
