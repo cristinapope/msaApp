@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+
+    <ImageView
+        android:id="@+id/petPictureAdoptNotScreen"
+        android:layout_width="160dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="126dp"
+        app:srcCompat="@android:drawable/ic_dialog_alert" />
+
+
+    <RelativeLayout
+        android:id="@+id/petAdoptNotLayout"
+        android:layout_width="318dp"
+        android:layout_height="403dp"
+        android:layout_above="@+id/adoptNotButton"
+        android:layout_below="@+id/petPictureAdoptNotScreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/relativeLayoutViewPet">
+
+        <TextView
+            android:id="@+id/nameTextAdoptNotScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="34dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/petNameViewPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTextAdoptNotScreen"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="24dp"
+            android:text="Insert some text from the firebase thing" />
+
+        <TextView
+            android:id="@+id/typeTextAdoptNotPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/petNameViewPet"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="34dp"
+            android:text="Pet type"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/petTypeAdoptNotPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/typeTextAdoptNotPet"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            android:text="Insert some text from the firebase thing" />
+
+        <TextView
+            android:id="@+id/descriptionTextAdoptNotScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/petTypeAdoptNotPet"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="34dp"
+            android:text="Description/ Additional information"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/petDescriptionViewPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionTextAdoptNotScreen"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="24dp"
+            android:text="Insert some text from the firebase thing" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/adoptNotButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/buttonColor"
+        android:text="Adopt't"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
