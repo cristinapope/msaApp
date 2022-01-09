@@ -15,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="136dp"
         android:layout_marginTop="86dp"
-        android:layout_marginEnd="126dp"
+        android:layout_marginEnd="136dp"
         app:srcCompat="@android:drawable/ic_dialog_alert" />
 
 
@@ -29,7 +29,7 @@
         android:background="@color/relativeLayoutViewPet">
 
         <TextView
-            android:id="@+id/nameTextViewPet"
+            android:id="@+id/nameTextTakePetBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -41,20 +41,20 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/petNameViewPet"
+            android:id="@+id/petNameTakePetBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/nameTextViewPet"
+            android:layout_below="@+id/nameTextTakePetBack"
             android:layout_alignParentStart="true"
             android:layout_marginStart="27dp"
             android:layout_marginTop="24dp"
             android:text="Insert some text from the firebase thing" />
 
         <TextView
-            android:id="@+id/typeTextViewPet"
+            android:id="@+id/typeTextTakePetBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/petNameViewPet"
+            android:layout_below="@+id/petNameTakePetBack"
             android:layout_alignParentStart="true"
             android:layout_marginStart="25dp"
             android:layout_marginTop="34dp"
@@ -66,14 +66,14 @@
             android:id="@+id/petTypeViewPet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/typeTextViewPet"
+            android:layout_below="@+id/typeTextTakePetBack"
             android:layout_alignParentStart="true"
             android:layout_marginStart="25dp"
             android:layout_marginTop="24dp"
             android:text="Insert some text from the firebase thing" />
 
         <TextView
-            android:id="@+id/descriptionTextViewPet"
+            android:id="@+id/descriptionTextTakePetBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/petTypeViewPet"
@@ -88,7 +88,7 @@
             android:id="@+id/petDescriptionViewPet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/descriptionTextViewPet"
+            android:layout_below="@+id/descriptionTextTakePetBack"
             android:layout_alignParentStart="true"
             android:layout_marginStart="26dp"
             android:layout_marginTop="24dp"
@@ -98,18 +98,20 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/adoptButton"
+        android:id="@+id/takePetBackButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/petAdoptLayout"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="166dp"
+        android:layout_marginStart="136dp"
         android:layout_marginTop="25dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="25dp"
         android:background="@color/buttonColor"
-        android:text="Adopt"
+        android:text="Take my pet back"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
