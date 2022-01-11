@@ -3,6 +3,7 @@
     package="com.example.adoptapp">
 
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@drawable/abhiandroid"
         android:label="@string/app_name"

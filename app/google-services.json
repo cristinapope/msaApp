@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "377822125901",
-    "project_id": "msaapp-faca9",
-    "storage_bucket": "msaapp-faca9.appspot.com"
+    "project_number": "362983521217",
+    "project_id": "msaplease-eb657",
+    "storage_bucket": "msaplease-eb657.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:377822125901:android:7a025444346d94e3f9e104",
+        "mobilesdk_app_id": "1:362983521217:android:02f7cdc384ed852a54cd40",
         "android_client_info": {
           "package_name": "com.example.adoptapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "377822125901-dha0petld8oqa3l1tjf71ihm7ufoeugo.apps.googleusercontent.com",
+          "client_id": "362983521217-rdgj1ppcfpcin2vn722jcsu3886evn9b.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC2gM9GAkRkzVIRJQD_U17JjrFbMmhQLvs"
+          "current_key": "AIzaSyDRsj3FEspDeRI6rb2c9eMS1NJpxgQroSg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "377822125901-dha0petld8oqa3l1tjf71ihm7ufoeugo.apps.googleusercontent.com",
+              "client_id": "362983521217-rdgj1ppcfpcin2vn722jcsu3886evn9b.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
